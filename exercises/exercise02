@@ -1,0 +1,73 @@
+<!-- ************************************************************************
+
+DART 450
+Winter, 2018
+Title of project
+Author's name
+
+Description of project and purpose of HTML
+
+************************************************************************ -->
+
+<html lang="en">
+
+<head>
+  <!doctype html>
+  <html>
+    <head>
+    <meta @charset "UTF-8";>
+    <title>Introvert</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script>
+    $(document).ready(function(){
+        $("h1").click(function(){
+            $(this).replaceWith(function(n){
+              return "<h2>Sorry,I hate small talk</h2>";
+
+        });
+    });
+    });
+    </script>
+
+
+
+
+</head>
+
+  <body>
+
+
+
+
+
+
+
+      <div class="wrapper">
+
+  <div class="section1">
+    <h1 class="animated bounce">Introvert</h1>
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  </body>
+</html>
