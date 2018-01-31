@@ -1,0 +1,40 @@
+
+
+
+h1{position: absolute;
+  top:25%;
+  left:30%;
+  right:30%;
+
+
+    color: #fff;
+font-family: 'Cedarville Cursive', cursive;
+  font-size: 70px;
+  text-shadow: 2px 2px black;
+  animation-name: bounceInUp;
+  text-align: center;
+
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+h2{position: absolute;
+  top:70%;
+  left:45%;
+  right:30%;
+    transform: translate(-50%, -50%);
+
+font-family: 'Cedarville Cursive', cursive;
+  font-size: 70px;
+
+  color: #000;
+  text-shadow: 1px 1px white;
+
+
+  animation-timing-function: ease-in-out;
+animation-delay: 2s;}
+
+h2:hover {   text-shadow: 1px 1px black;
+    color: #fff;
+
+}
