@@ -1,0 +1,110 @@
+html, body { height: 100%; }
+body {
+  background-color: #414ace;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+h1 {
+font-family: 'Roboto Slab', serif;
+	padding: 40px 0 0 0;
+	font-size: 45px;
+	color: #ffff;
+}
+.button {/* this is the Clicker itself */
+	border-radius: 100%;
+	width: 30%;
+	content: url("../image/facebook.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+transition: all .2s ease-in-out;
+}
+
+.button:active {
+transition: all .2s ease-in-out;
+	background-size: 173px;
+}
+
+.button:hover{transform: scale(1.1);
+box-shadow: #0000;
+}
+
+button { /*Code for the upgrade buttons*/
+	background-color: #2e3092;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: start;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: 10;
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+	color: #ffff;
+	transition: 0.1s;
+}
+button:active {
+transition: 0.1s;
+	font-size: 15px;
+
+}
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+
+}
+/*Upgrade Menu*/
+/* Side Navigation CSS Code*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #89b7e3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
