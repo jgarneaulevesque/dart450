@@ -1,0 +1,189 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas { img src: "image/front.gif";
+background-repeat:no-repeat;
+  background-size:contain;
+background-position:center;
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    padding-left: 0;
+   padding-right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+
+
+}
+</style>
+
+  <title>Welcome to the internet</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+
+</head>
+
+<body onload="startGame()">
+
+<script>
+
+var myGamePiece;
+var myBackground;
+// my character
+function startGame() {
+    myGamePiece = new component(400, 400, "image/character.gif", -180, 290,  "image");
+    myGameArea.start();
+
+
+}
+
+
+
+//canvas area of the game
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 1200;
+        this.canvas.height = 600;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateGameArea, 20);
+        var width = 900;
+        var height = 200;
+        var x = 0;
+        var y = 0;
+        var imageObj = new Image();
+imageObj.onload = function() {
+          context.drawImage(imageObj, x, y, width, height);
+        };
+        imageObj.src = 'image/front.gif';
+
+
+        },
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    },
+    stop : function() {
+        clearInterval(this.interval);
+
+    }
+}
+
+
+
+function component(width, height, color, x, y, type) {
+    this.type = type;
+    if (type == "image") {
+        this.image = new Image();
+        this.image.src = color;
+    }
+    this.width = width;
+    this.height = height;
+    this.speedX = 0;
+    this.speedY = 0;
+    this.x = x;
+    this.y = y;
+    this.update = function() {
+        ctx = myGameArea.context;
+        if (type == "image") {
+            ctx.drawImage(this.image,
+                this.x,
+                this.y,
+                this.width, this.height);
+        } else {
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+    this.newPos = function() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+    }
+}
+
+function updateGameArea() {
+    myGameArea.clear();
+
+    myGamePiece.newPos();
+    myGamePiece.update();
+
+}
+
+function moveup() {
+    myGamePiece.speedY = -1;
+}
+
+function movedown() {
+    myGamePiece.speedY = 1;
+}
+
+function moveleft() {
+    myGamePiece.speedX = -1;
+
+}
+
+function moveright() {
+    myGamePiece.speedX = 1;
+
+}
+
+function clearmove() {
+    myGamePiece.speedX = 0;
+    myGamePiece.speedY = 0;
+
+}
+
+
+
+</script>
+
+
+<div style="text-align:center;width:1800px;">
+
+
+  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">MOVE</button><br><br>
+
+
+</div>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+
+</body>
+<div style="text-align:center;width:1800px;">
+
+
+
+
+</div>
+</html>
+
+</html>
