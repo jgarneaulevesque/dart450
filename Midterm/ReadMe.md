@@ -1,0 +1,7 @@
+## Artist statement
+
+As me get more and more into the digital world, our activity in our daily life changes drastically. Instead to write a letter for a person, we write online on your desktop, because it is faster and convenient. The same thing happen when we meet people we tend to socialize via social media instead to meet these people in real life or talk to them on the phone. And the same thing as shopping, playing games or to work on the computer for a required job. We spend our life a lot of our precious time in front of a screen instead to going outside or to do something much more the old fashion way. This interactive website shows a day in a life of a university student who use her computer and notice how much it spends time for each activity she spends on it. The website have four applications icons: Mail, Chatbox, Acayri game and Sphere web. The interaction will be revealed by clicking at theses applications icons on an own desktop and discover what she uses for. The website uses the technique of popup box “modal box”, css styling, variable JavaScript “setinterval”, animation gif and import “iframe video”. This interactive project is a reminder how much you spend time in front the computer and the internet. This is not a critique how bad computer is, but a reflection about the time we spend with it and maybe rethink how we must live a better life without using heavily on the digital world.
+
+Website made by Jeanne Garneau-Lévesque
+Dart450: web interaction by Pippin Barr
+Concordia University 2018

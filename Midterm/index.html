@@ -1,0 +1,294 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Screen time</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+<header id="counter"><header>
+
+
+
+<body background="image/desktop2.png">
+
+
+<p id="time"></p>
+  <!-- HTML specifying the webpage goes here -->
+
+
+
+
+
+<!--buttons icons-->
+  <input class="button" type="image" src="image/mail.png" width="107px" height="127px" data-toggle="modal" data-target="#myModal"></input>
+<input class="button" type="image" src="image/chatbox.png" width="107px" height="127px" data-toggle="modal" data-target="#myModal2"></input>
+<input class="button" type="image" src="image/game.png" width="107px" height="127px" data-toggle="modal" data-target="#myModal3"></input>
+<input class="button" type="image" src="image/internet.png" width="107px" height="127px" data-toggle="modal" data-target="#myModal4" ></input>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+
+
+      <!-- Modal content mail-->
+      <div class="modal-content">
+
+        <div class="modal-header">
+        <h4 class="modal-title">Marpha Tsvetkov</h4>
+        <h5 class="modal-title1">October 15, 2018/ 10:00 Am</h5>
+        <p>Hi Sarah,<br><br>so basically what the assignment will focus on is your knowledge about the second and the third course subject we explore in class.
+        You must write an reflection about your opinion about " How technology have change our daily life and the concequence that may/may not occur with it. " The number of word requiring is 650 words to 1000 words and it is due in three weeks. Hope this will be helpful to you.<br><br>Cheers Tsvetkov  </p>
+<h4 class="modal-title">Sarah White</h4>
+    <h5 class="modal-title1">October 15, 2018/ 7:15 Am</h5>
+    <p>Hi Miss Tsvetkov,<br><br>Last week, I was sick and I miss your class when you make a presentation about the reflection writing assignment. I was wandering when it is due and what is the subject we must write to this reflection?<br><br>Thank you for your respond.<br><br>Have a nice day.<br><br>Sarah White  <p>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body">
+
+
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+  <!-- Modal content chatbox-->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+
+
+      <!-- Modal content chatbox-->
+      <div class="modal-content" style="height:720px;width:720px;overflow:auto;">
+
+        <div class="modal-header">
+        <h4 class="modal-title2">Zhang Yáo</h4>
+        <h5 class="modal-title3">October 12, 2018/ 5:50 Pm</h5>
+        <div class="container">
+  <img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+  <p class="chatbox1">Hey!</p>
+  <span class="time-right">5:50 Pm</span>
+</div>
+
+<div class="container2">
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox2">Hello...</p>
+<span class="time-right2">5:58 Pm</span>
+</div>
+
+<div class="container">
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">One of Jack friends said that he plan to have a party at his house. So, care to join with the gang tonight?</p>
+<span class="time-right">6:00 Pm</span>
+</div>
+
+<div class="container2">
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox2">Not really...I feel like crap today...</p>
+<span class="time-right2">6:02 Pm</span>
+</div>
+
+<div class="container">
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">How come?</p>
+<span class="time-right">6:05 Pm</span>
+</div>
+
+<div class="container2">
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox2">Got the flu maybe...My head hurt so bad... urgh... Sorry I think will pass this one.</p>
+<span class="time-right2">6:08 Pm</span>
+</div>
+
+<div class="container">
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">Oh man that sucks...Well get better soon Sarah!</p>
+<span class="time-right">6:12 Pm</span>
+</div>
+
+<div class="container2">
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox2">Thank you...</p>
+<span class="time-right2">6:14 Pm</span>
+</div>
+
+<div class="container">
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">See you soon at the Uni!</p>
+<span class="time-right">6:16 Pm</span>
+</div>
+
+<div class="container2">
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox2">Hope so... Bye...Have a good time at the party</p>
+<span class="time-right2">6:18 Pm</span>
+</div>
+
+<div class="container">
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">Thanks!</p>
+<span class="time-right">6:20 Pm</span>
+</div>
+
+
+
+
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body">
+
+
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+<!-- End Modal content chatbox-->
+
+
+
+<!-- Modal content Acayri-->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+
+
+
+      <!-- Modal content Acayri-->
+      <div class="modal-content2" style="height:520px;width:920px;;overflow:auto;" >
+
+        <div class="modal-header">
+        <img src="image/acayri_animation.gif">
+
+
+        </div>
+        <div class="modal-body">
+
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!--End Modal content Acayri-->
+
+
+<!-- Modal content sphere web-->
+<div class="modal fade" id="myModal4" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content3 style="overflow:auto;">
+
+  <div class="modal-header">
+<img class="web" src="image/web3.gif" width="50%" height="50%"/>
+<h5 class="modal-title4">Wind trailer</h5>
+<iframe src="https://player.vimeo.com/video/194335952" width="640" height="469" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<img src="image/web3.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox3">Great video! Good job!</p>
+<img src="image/web2.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox4">The animation looks a little bit odd</p>
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox4">When it going to be release?</p>
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">Never I think!</p>
+<img src="image/sarah.png" class="profile2" alt="Avatar" style="width:100%;">
+<p class="chatbox4">Nooooooooooooooooooooo!!!!!!!</p>
+<img src="image/zhang.gif" class="profile" alt="Avatar" style="width:100%;">
+<p class="chatbox1">Ha ha ha</p>
+  </div>
+  <div class="modal-body">
+
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div>
+  <div class="modal-footer">
+
+  </div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<!--images folders-->
+
+<img id="folder" src="image/folder17.png" width="125px" height="136px">
+<img id="folder" src="image/folder1.png" width="125px" height="136px">
+<img id="folder" src="image/folder2.png" width="125px" height="136px">
+<img id="folder" src="image/folder3.png" width="125px" height="136px">
+<img id="folder" src="image/folder4.png" width="125px" height="136px">
+<img id="folder" src="image/folder5.png" width="125px" height="136px">
+<img id="folder" src="image/folder6.png" width="125px" height="136px">
+<img id="folder" src="image/folder7.png" width="125px" height="136px">
+<img id="folder" src="image/folder8.png" width="125px" height="136px">
+<img id="folder" src="image/folder9.png" width="125px" height="136px">
+<img id="folder" src="image/folder10.png" width="125px" height="136px">
+<img id="folder" src="image/folder11.png" width="125px" height="136px">
+<img id="folder" src="image/folder12.png" width="125px" height="136px">
+<img id="folder" src="image/folder13.png" width="125px" height="136px">
+<img id="folder" src="image/folder16.png" width="125px" height="136px">
+<img id="folder" src="image/folder14.png" width="125px" height="136px">
+<img id="folder" src="image/folder15.png" width="125px" height="136px">
+
+
+
+
+
+
+
+</body>
+
+</html>
