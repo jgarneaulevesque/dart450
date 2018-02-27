@@ -1,0 +1,38 @@
+/*
+
+Blast.js template
+Pippin Barr
+
+Some basic styling
+
+*/
+
+/* We have this here just to point out that EVERYTHING
+we run through .blast() ends up with this class. */
+.blast {
+  text-decoration: none;
+}
+
+#text {
+
+  text-align: center;
+text-align-last: justify;
+  color: #000;
+  font: 28px "josefin sans", arial; /*change this
+  for font-size and font-family*/
+  line-height: 30%;
+}
+
+
+
+.pink{  position: absolute;
+  left: 900px;
+  top: 480px;
+  z-index: -1;
+color: pink;
+font: 28px "josefin sans", arial;}
+
+
+p{font-size: 60px;
+font-family: sans-serif;
+text-align: center;}
