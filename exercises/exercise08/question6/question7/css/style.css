@@ -1,0 +1,28 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+button { background-color: #ff99cc;
+border-radius: 4px;
+padding: 10px 14px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 13px;
+ border: none;
+  text-decoration: none;
+}
+
+button a { text-decoration: none;}
+
+button:hover{ background-color: #f26b91;}
