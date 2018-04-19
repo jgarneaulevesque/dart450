@@ -1,0 +1,97 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+
+button { background-color: #ff99cc;
+border-radius: 4px;
+padding: 10px 14px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 24px;
+ border: none;
+  text-decoration: none;
+}
+
+button a { text-decoration: none;
+font-family: 'VT323', monospace;}
+
+button:hover{ background-color: #f26b91;
+}
+
+#timer { color: black;
+font-family: 'VT323', monospace;
+font-weight: bolder;
+font-size: 95px;
+padding: 0px 0 0 60px;
+margin: 0 0 400px 0;
+position: absolute;
+
+
+}
+
+
+
+
+
+h1{ color: black;
+font-family: 'VT323', monospace;
+font-size: 85px;
+padding: 0px 0 0 158px;
+margin: 0 0 500px 0;
+position: absolute;
+
+}
+
+.quiz2{color: black;
+font-family: 'VT323', monospace;
+font-size: 40px;
+padding: 0px 0 0 60px;
+margin: 120px 0 0px 0;
+font-weight: bolder;
+}
+
+
+#choice {position: relative;
+left: 30px;
+top: 270px;
+cursor: pointer;}
+
+#choice2 {position: relative;
+left: 350px;
+top: 80px;
+cursor: pointer;}
+
+#choice3{position: relative;
+left: 690px;
+top: 200px;
+cursor: pointer;}
+
+
+
+.character{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  z-index: -1;
+
+
+}
+
+
+.logo{
+  padding: 0px 0 0 60px;
+  margin: 50px 0 0 0;
+
+}
