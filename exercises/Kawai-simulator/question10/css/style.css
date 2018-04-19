@@ -1,0 +1,69 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+/*body { animation: colorchange 20s;
+-webkit-animation: colorchange 20s;
+background-color: black;
+}*/
+
+/*@keyframes colorchange{
+      0% {background: black;}
+      50%  {  background-image: url("image/vortex.gif");}
+    }
+
+      @keyframes colorchange{
+            0% {background: black;}
+            50%  {background-image: url("image/vortex.gif");}
+          }*/
+
+body{ }
+
+
+
+
+
+
+            .character{
+              position: absolute;
+              left: 1000px;
+              top: 15px;
+              z-index: -1;}
+
+              .character2{
+                position: absolute;
+                left: 1000px;
+                top: 35px;
+                z-index: -2;
+              display: none;}
+
+              .character3{
+                position: absolute;
+                left: 1000px;
+                top: 35px;
+                z-index: -2;
+              display: none;}
+
+              .character4{
+                position: absolute;
+                left: 1000px;
+                top: 35px;
+                z-index: -2;
+              display: none;}
+
+              p{color: #8fc8ef;
+              font-family: 'VT323', monospace;
+              font-size: 40px;
+              position: absolute;
+              top: 50%;
+              left: 40%;
+              transform: translate(-50%, -50%);
+              font-weight: bolder;
+              display: none;
+
+              }
