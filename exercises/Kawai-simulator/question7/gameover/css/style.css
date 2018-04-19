@@ -1,0 +1,38 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+
+#scream {display: none;}
+
+h1{ text-align: center;
+padding: 400px 0 0 0;
+color: red;
+font-family: 'VT323', monospace;
+font-size: 94px}
+
+button{margin: 0 0 0 900px;
+background-color: Grey;
+border-radius: 4px;
+padding: 10px 14px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 24px;
+ border: none;
+  text-decoration: none;
+  cursor: pointer;}
+
+  button a { text-decoration: none;}
+
+  button:hover{ background-color: black;}
