@@ -1,0 +1,118 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!--Background image full page-->
+  <style>
+body {
+    background-image: url("/image/flower6.gif");
+    background-repeat: repeat;
+
+
+}
+</style>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Kawaï Simulator</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/ballon.css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+    <script src="annyang/annyang.js"></script>
+
+<!--annyang script use for answer the question-->
+    <script>
+    if (annyang) {
+
+      // Let's define a command.
+      var commands = {
+        'Your lamp': function() { window.location.replace("gameover/index.html")},
+
+
+      'Your candle': function() { window.location.replace("gameover/index.html")},
+
+
+           'your fireplace': function() { window.location.replace("gameover/index.html")},
+
+           'your match': function() { window.location.replace("/question10/index.html")}
+
+           }
+
+
+
+
+
+      // Add our commands to annyang
+      annyang.addCommands(commands);
+
+      // Start listening.
+      annyang.start();
+    }
+
+
+    </script>
+
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+
+  <!-- HTML specifying the webpage goes here -->
+  <img class="logo" src="/image/logo_glitch.gif" alt="logo" width="678px" height="94px">
+  <p id="timer"></p>
+  <h1>Questions 4</h1>
+
+  <p class="quiz2">You have a match and you enter a wagon with a candle, <br> a lamp  and a fireplace. Which one do you light first?<p>
+    <!-- <div>
+      <a href="gameover/index.html"><button id="choice" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">Your lamp</button></a>
+      <a href="gameover/index.html"><button id="choice2" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">Your candle</button></a>
+      <a href="gameover/index.html"><button id="choice3" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">your fireplace</button></a>
+      <a href="question10/index.html"><button id="choice4" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">your match</button></a>
+    </div>-->
+
+<!--Buttons choices with link to webpage-->
+    <div>
+      <a href="#"><button id="choice" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">Your lamp</button></a>
+      <a href="#"><button id="choice2" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">Your candle</button></a>
+      <a href="#"><button id="choice3" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">your fireplace</button></a>
+      <a href="#"><button id="choice4" data-balloon="Hint: Something you use to communicate" data-balloon-pos="up">your match</button></a>
+    </div>
+
+    <!--Images characters-->
+    <img class="character" src="/image/explain_glitch3.gif" alt="kawai smile" width="393px" height="950px">
+
+    <audio id="music" autoplay loop setHalfVolume><source src="/mp3/ambiance2_glitch.mp3" type="audio/mpeg"></audio>
+
+</body>
+
+</html>
