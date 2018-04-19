@@ -1,0 +1,82 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!--Background image full page-->
+  <style>
+body {
+  background-image: url("/image/flower4.gif");
+  background-repeat: repeat;
+
+
+
+
+}
+</style>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Kawaï Simulator</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+
+  <!-- HTML specifying the webpage goes here -->
+    <img class="logo" src="/image/logo_glitch.gif" alt="logo" width="678px" height="94px">
+
+  <p class="question6">Oh no! I didn’t know that he adds a counter to each barrier now…<br> You’re better to answer fast as you can if we want to go <br> to the next one. I know you can do it! But don’t be a fool by <br> this game though! Good luck!<p>
+<p id="timer"></p>
+<h1>Questions 1</h1>
+<p class="quiz1">Which one is correct? “Penguins flies” or “A Penguin flies”<p>
+
+<!--Buttons choices with link to webpage-->
+  <div>
+    <a href="gameover/index.html"><button id="choice">Penguins flies</button></a>
+    <a href="gameover/index.html"><button id="choice2">Penguin flies</button></a>
+    <a href="/question7/index.html"><button id="choice3">Penguins don’t fly</button></a>
+  </div>
+
+<!--Images characters-->
+<img class="character" src="/image/surprise_glitch.gif" alt="kawai smile" width="393px" height="950px">
+<img class="character2" src="/image/explain2.gif" alt="kawai smile" width="393px" height="950px">
+
+<audio id="music" autoplay loop setHalfVolume><source src="/mp3/ambiance2_glitch.mp3" type="audio/mpeg"></audio>
+
+
+</body>
+
+</html>
