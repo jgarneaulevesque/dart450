@@ -1,0 +1,111 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+
+button { background-color: #ff99cc;
+border-radius: 4px;
+padding: 10px 14px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 24px;
+ border: none;
+  text-decoration: none;
+}
+
+button a { text-decoration: none;}
+
+button:hover{ background-color: #f26b91;}
+
+#timer { color: black;
+font-family: 'VT323', monospace;
+font-weight: bolder;
+font-size: 95px;
+padding: 0px 0 0 60px;
+margin: 0 0 400px 0;
+position: absolute;
+
+
+}
+
+.question6 {color: white;
+font-family: 'VT323', monospace;
+
+font-size: 35px;
+padding: 0px 0 0 60px;
+margin: 90px 0 0px 0;
+
+
+}
+
+h1{ color: black;
+font-family: 'VT323', monospace;
+font-size: 85px;
+padding: 0px 0 0 158px;
+margin: 0 0 500px 0;
+position: absolute;
+
+}
+
+.quiz1{color: black;
+font-family: 'VT323', monospace;
+font-size: 40px;
+padding: 0px 0 0 60px;
+margin: 120px 0 0px 0;
+font-weight: bolder;
+}
+
+
+#choice {position: relative;
+left: 1600px;
+top: 180px;
+cursor: pointer;}
+
+#choice2 {position: relative;
+left: 1400px;
+top: 180px;
+cursor: pointer;}
+
+#choice3{position: relative;
+left: 1200px;
+top: 180px;
+cursor: pointer;}
+
+
+
+.character{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  z-index: -1;
+ overflow: hidden;
+}
+
+.character2{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  z-index: -1;
+ overflow: hidden;
+ display: none;
+}
+
+
+
+
+.logo{
+  padding: 0px 0 0 60px;
+  margin: 50px 0 0 0;
+
+}
