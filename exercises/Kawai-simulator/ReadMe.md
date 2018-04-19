@@ -1,0 +1,15 @@
+## Notice from the creator
+
+For a better experience, view the game through the Google Chrome browser
+and put on some headphone.
+
+## Artist Statement
+
+## What is a visual novel game?
+The purpose for this project is to create an interactive visual novel game website. Visual novel games is the story telling game that has characteristically as a novel script and featuring Japanese “anime” style with static graphics. It mostly play on a computer or consoles. The most play genre for the visual novel is “dating Sim” which the player can choose the propose cast of characters in the game which it can be females or males and to experience a love story between each one of them.  Also this type of game has the particularity to have a choice system which the choices can lead to a good ending or a bad ending.
+
+## Mechanic of the Game
+The project is called “Kawaï simulator” and when the visual novel game is launched, it begins like a parody of a “dating Sims game” which the character “Kawaï” is lovey-dovey with the player which is cringe by using also responsive voice scripts to give the impression that this character speaks directly to the player. The player will begin to choose some choice that the game provides to to understand the mechanic of the choice system which the choices lead to a different webpage using the relative link: <a href> </a>. After that, the player will discover by clicking a secret message from the character “Kawaï” which is a call for help to free her from the visual novel. Then on another webpage the character tells the player her back story to better sympathize with her and she tells how the player can free from this visual novel game by answering correctly riddles. Each question have distinctive interactivity which the first question has a drag gable choices’ buttons that are overlaid onto one on the other. The second question has animated button that floats into the screen and you must click rapidly on the answer. The third and the fourth question has an annyang scripts which the player must tell loudly the answer, because it is a speech recognition. If the player chooses a bad answer, the link on the button will be directed to a game over the page which it will have a jump scare and a sneaky and scary quote from an unknown person using responsive voice scripts. If the players succeed to answer all correctly the question, he will be directed to the page of the conclusion of the game which the character “Kawaï” reveal her true original form.  
+
+## The Visual Style
+The style is influenced by the popular trope of anime Moe style which is a cute and innocent Japanese character that is really used in visual novel game. Also the style will also be pixelated for the reason to be practical in terms of image size, rapidity to make and also to go well with the robotic voice of the responsive scripts. The background image will have the same technique of pixel art, but some will be animated gif that represented the hack aspect when the player goes to the quiz section made in “photomosh” a free website application.
