@@ -1,0 +1,71 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Background image full page-->
+  <style>
+body {
+    background-image: url("/image/flower.gif");
+    background-repeat: repeat;
+
+
+}
+</style>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Kawai Simulator</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+    <img class="logo" src="/image/logo.gif" alt="logo" width="678px" height="94px">
+<p class="question3">My favourite book is "Alice in wonderland" by Lewis Carroll.<br> I was really fond of the character feelings.<br> It's like I really understand her worries about how she was confuse <br> to be unable to detect if she was in a dream or in reality.<br> Imagine that your whole world that you knew was just an illusion,<br> a trick of our perception of reality.<br> Wouldn't that be scary?</p>
+  <!-- HTML specifying the webpage goes here -->
+
+  <p id="message" onclick="this.innerHTML='Aww shoot I don’t have many<br> spaces to write… '"  >PLEASE HELP ME! I can’t get free! </p>
+  <p id="message2" onclick="this.innerHTML='Tell you what, click to go <br> to the main menu of the visual game.'"> This pervert programmer kidnaped me and <br> put me in this miserable visual novel game <br>forever. I need your help to get out <br> of this place!!!</p>
+
+<!--Buttons choices with link to webpage-->
+  <div>
+    <a href="/question4/index.html"><button id="menu">Go to main menu</button></a>
+  </div>
+
+  <!--Images characters-->
+<img class="character" src="/image/speak.gif" alt="kawai smile" width="393px" height="950px">
+<img class="character2" src="/image/explain.gif" alt="kawai smile" width="393px" height="950px">
+
+<audio id="music" autoplay loop setHalfVolume><source src="/mp3/ambiance2.mp3" type="audio/mpeg"></audio>
+</body>
+
+</html>
