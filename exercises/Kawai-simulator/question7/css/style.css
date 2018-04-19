@@ -1,0 +1,114 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+button { background-color: #ff99cc;
+border-radius: 4px;
+padding: 10px 14px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 20px;
+ border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+button a { text-decoration: none;}
+
+button:hover{ background-color: #f26b91;}
+
+#timer { color: black;
+font-family: 'VT323', monospace;
+font-weight: bolder;
+font-size: 95px;
+padding: 0px 0 0 60px;
+margin: 0 0 400px 0;
+position: absolute;
+
+
+}
+
+.question6 {color: white;
+font-family: 'VT323', monospace;
+
+font-size: 35px;
+padding: 0px 0 0 60px;
+margin: 90px 0 0px 0;
+
+
+}
+
+h1{ color: black;
+font-family: 'VT323', monospace;
+font-size: 85px;
+padding: 0px 0 0 158px;
+margin: 0 0 500px 0;
+position: absolute;
+
+}
+
+@-webkit-keyframes mymove {
+    10% {top: 900px;
+    right: 60px;}
+}
+
+@-webkit-keyframes mymove2 {
+    5% {left: 500px;
+    top: 90px;}
+}
+
+@-webkit-keyframes mymove3 {
+    5% {right: 200px;
+    top: 90px;}
+}
+
+.quiz2{color: black;
+font-family: 'VT323', monospace;
+font-size: 40px;
+padding: 0px 0 0 60px;
+margin: 120px 0 0px 0;
+font-weight: bolder;
+}
+
+#choice{position: absolute;
+  top: 20px;
+  right: 50%;
+  -webkit-animation: mymove 2s infinite;}
+
+  #choice2{position: absolute;
+    top: 600px;
+    left: 90%;
+    -webkit-animation: mymove2 2s infinite;}
+
+    #choice3{position: absolute;
+      top: 600px;
+      right: 90%;
+      -webkit-animation: mymove3 2s infinite;}
+
+      .character{
+        position: absolute;
+        left: 1000px;
+        top: 15px;
+        z-index: -1;
+
+
+      }
+
+
+      .logo{
+        padding: 0px 0 0 60px;
+        margin: 50px 0 0 0;
+
+      }
