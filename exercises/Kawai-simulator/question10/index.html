@@ -1,0 +1,103 @@
+<!-- ************************************************************************
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Description of project and purpose of HTML...
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Background image full page animation fadein go to black to background image-->
+  <style>
+
+body {
+
+
+background-color: black;
+
+
+}
+
+body:after {
+	content:"";
+	background: url("/image/vortex2.gif") no-repeat 0 0;
+	background-size: cover;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity:0;
+	z-index:-3;
+	animation:bgFade 2s 2s forwards;
+}
+
+@keyframes bgFade {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+
+</style>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Kawaï Simulator</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Include jQuery via the CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+  <!-- Uncomment the lines below to include jQuery UI -->
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
+ <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+
+  <!-- Include the script file -->
+  <script src="js/script.js"></script>
+
+
+</head>
+
+<!-- Comment about the body of the HTML -->
+
+<body>
+
+
+<div class="bg"></div>
+
+  <!-- HTML specifying the webpage goes here -->
+
+    <!--Images characters-->
+<img class="character" src="/image/happy.gif" alt="kawai smile" width="393px" height="950px">
+<img class="character2" src="/image/badass.gif" alt="kawai smile" width="498px" height="893px" value='Explode 20 Pieces (5000 ms)'>
+<img class="character3" src="/image/badass_smile.gif" alt="kawai smile" width="498px" height="893px">
+<img class="character4" src="/image/badass_sad.gif" alt="kawai smile" width="498px" height="893px">
+<audio id="music" autoplay loop setHalfVolume><source src="/mp3/ambiance2.mp3" type="audio/mpeg"></audio>
+
+<p>Thank you for playing!</p>
+
+</body>
+
+</html>
