@@ -1,0 +1,77 @@
+/*
+
+DART 450, Winter 2018
+Title of project
+Author
+
+Some description of the CSS styling
+
+*/
+
+body {
+
+}
+button { background-color: #ff99cc;
+border-radius: 4px;
+padding: 10px 14px;
+margin: 540px 0px 0 60px;
+color: white;
+font-family: 'VT323', monospace;
+text-align: center;
+font-weight: lighter;
+font-size: 24px;
+ border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+
+}
+
+.bg{position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  border: none;
+z-index: -2;
+opacity: 0.9;
+   filter: alpha(opacity=90);}
+
+p{color: white;
+font-family: 'VT323', monospace;
+font-size: 35px;
+padding: 200px 0 0 60px;
+position: absolute;}
+
+.menu{font-size: 48px;
+filter: blur(1px);
+margin: 0 0 40px 0;}
+
+button a { text-decoration: none;}
+
+button:hover{ background-color: #f26b91;}
+
+.character{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  z-index: -1;
+
+
+}
+
+.character2{
+  position: absolute;
+  left: 1000px;
+  top: 15px;
+  z-index: -1;
+  display: none;
+
+
+}
+
+
+.logo{  position: absolute;
+  padding: 50px 0 0 60px;
+
+}
